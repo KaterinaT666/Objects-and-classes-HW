@@ -14,5 +14,12 @@ public class Main {
 		nose.setPublishingYear(1836);
 		System.out.println( nose.getTitle()+ " "+ nose.getAuthorSurName() + " "+ nose.getAuthorName()
 				+ " "+ nose.getPublishingYear());
+
+		System.out.println(gogol.toString());
+		System.out.println(tolstoy.toString());
+		System.out.println(nose);
+
+		System.out.println(gogol.hashCode());
+		System.out.println(nose.hashCode());
 	}
 }
